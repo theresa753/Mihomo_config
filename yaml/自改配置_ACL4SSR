@@ -302,7 +302,7 @@ proxy-groups:
   - name: 德国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
     include-all: true
-    filter: (?i)德|德国|法兰克福|DE|Germany
+    filter: (?i)德国|法兰克福|DE|Germany
     type: url-test
     interval: 300
     tolerance: 50
