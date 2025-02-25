@@ -9,6 +9,8 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 美国节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
       - DIRECT
@@ -33,6 +35,8 @@ proxy-groups:
       - 台湾节点
       - 日本节点
       - 美国节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
       - DIRECT
@@ -47,6 +51,8 @@ proxy-groups:
       - 台湾节点
       - 日本节点
       - 美国节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
       - DIRECT
@@ -61,6 +67,8 @@ proxy-groups:
       - 台湾节点
       - 日本节点
       - 美国节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
       - DIRECT
@@ -76,6 +84,8 @@ proxy-groups:
       - 台湾节点
       - 日本节点
       - 美国节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
       - DIRECT
@@ -105,6 +115,8 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 美国节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
       - DIRECT
@@ -129,6 +141,8 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 日本节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
   - name: 微软Bing
@@ -142,6 +156,8 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 日本节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
   - name: 微软云盘
@@ -155,6 +171,8 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 日本节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
   - name: 微软服务
@@ -168,6 +186,8 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 日本节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
   - name: 苹果服务
@@ -181,6 +201,8 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 日本节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
   - name: 游戏平台
@@ -194,6 +216,8 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 日本节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
   - name: 网易音乐
@@ -236,6 +260,8 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 美国节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 手动切换
   - name: 香港节点
@@ -262,7 +288,7 @@ proxy-groups:
   - name: 台湾节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     include-all: true
-    filter: (?i)台|新北|彰化|TW|Taiwan
+    filter: (?i)台|新北|彰化|台北|TW|Taiwan
     type: url-test
     interval: 300
     tolerance: 50
@@ -273,24 +299,31 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+  - name: 德国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png
+    include-all: true
+    filter: (?i)德|德国|法兰克福|DE|Germany
+    type: url-test
+    interval: 300
+    tolerance: 50
   - name: 英国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
     include-all: true
-    filter: (?i)英|英国|英格兰|UK|United Kingdom
+    filter: (?i)英|英国|英格兰|伦敦|UK|United Kingdom
     type: url-test
     interval: 300
     tolerance: 50
   - name: 韩国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
     include-all: true
-    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    filter: (?i)KR|Korea|KOR|首尔|春川|韩|韓
     type: url-test
     interval: 300
     tolerance: 50
   - name: 奈飞节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     include-all: true
-    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media|狗翟|寝室长|猿|德州|卤肉|人民心中|美国队长
+    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media|狗翟|寝室长|猿|德州|卤肉|人民心中|美国队长|北极熊Frankfurt
     type: select
   - name: GLOBAL
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
@@ -324,6 +357,8 @@ proxy-groups:
       - 美国节点
       - 台湾节点
       - 狮城节点
+      - 德国节点
+      - 英国节点
       - 韩国节点
       - 奈飞节点
 
