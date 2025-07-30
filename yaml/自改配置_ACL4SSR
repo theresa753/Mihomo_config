@@ -24,6 +24,70 @@ proxy-groups:
     include-all: true
     interval: 300
     tolerance: 50
+  - name: Whatsapp
+    icon: https://s2.loli.net/2025/07/31/VNpCYyXWemqPQn2.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 德国节点
+      - 英国节点
+      - 韩国节点
+      - 手动切换
+      - DIRECT
+  - name: Facebook
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Facebook.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 德国节点
+      - 英国节点
+      - 韩国节点
+      - 手动切换
+      - DIRECT
+  - name: Instagram
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Instagram.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 德国节点
+      - 英国节点
+      - 韩国节点
+      - 手动切换
+      - DIRECT
+  - name: Twitter
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/X.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 德国节点
+      - 英国节点
+      - 韩国节点
+      - 手动切换
+      - DIRECT
   - name: 电报消息
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
     type: select
@@ -333,6 +397,10 @@ proxy-groups:
       - 节点选择
       - 手动切换
       - 自动选择
+      - Whatsapp
+      - Facebook
+      - Instagram
+      - Twitter
       - 电报消息
       - OpenAi
       - 油管视频
@@ -573,6 +641,34 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Whatsapp:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Whatsapp.list
+    path: ./ruleset/Whatsapp.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Facebook:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Facebook.list
+    path: ./ruleset/Facebook.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Instagram:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Instagram.list
+    path: ./ruleset/Instagram.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Twitter:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Twitter.list
+    path: ./ruleset/Twitter.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 rules:
   - "DOMAIN-KEYWORD,polarbear,全球直连"
@@ -589,6 +685,10 @@ rules:
   - "RULE-SET,OneDrive,微软云盘"
   - "RULE-SET,Microsoft,微软服务"
   - "RULE-SET,Apple,苹果服务"
+  - "RULE-SET,Whatsapp,Whatsapp"
+  - "RULE-SET,Facebook,Facebook"
+  - "RULE-SET,Instagram,Instagram"
+  - "RULE-SET,Twitter,Twitter"
   - "RULE-SET,Telegram,电报消息"
   - "RULE-SET,OpenAi,OpenAi"
   - "RULE-SET,NetEaseMusic,网易音乐"
