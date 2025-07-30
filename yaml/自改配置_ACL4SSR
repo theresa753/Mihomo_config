@@ -73,7 +73,7 @@ proxy-groups:
       - 手动切换
       - DIRECT
   - name: Twitter
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/X.png
+    icon: https://s2.loli.net/2025/07/31/O52VU7sNdpukejZ.png
     type: select
     proxies:
       - 节点选择
