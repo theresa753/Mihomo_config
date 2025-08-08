@@ -4,7 +4,7 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
-      - 大力出奇迹（欢迎赞助）
+      - 大力出奇迹（个人发电，欢迎赞助）
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -15,10 +15,18 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
-  - name: 大力出奇迹（欢迎赞助）
+  - name: 大力出奇迹（个人发电，欢迎赞助）
     icon: https://s2.loli.net/2025/08/08/JsADNuvbM1ExKgS.png
     include-all: true
     type: select
+    proxies:
+      - 🇺🇸 猿来想撸毒奶粉（US）
+      - 🇹🇼 台湾卤肉饭包年版（TW）
+      - 🇸🇬 坡县特色海南鸡饭（SG）
+      - 🇯🇵 秋叶原圣地巡礼（JP）
+      - 🇺🇸 白嫖的LA速度可达30mb/s（US）
+      - 🇺🇸 H-UI大胆白嫖速度超快带ipv6（US）
+      - 🇺🇸 白嫖的甲骨文oracle圣何塞（US）
   - name: 手动切换
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
     include-all: true
@@ -33,7 +41,7 @@ proxy-groups:
     icon: https://s2.loli.net/2025/07/31/VNpCYyXWemqPQn2.png
     type: select
     proxies:
-      - 大力出奇迹（欢迎赞助）
+      - 大力出奇迹（个人发电，欢迎赞助）
       - 节点选择
       - 自动选择
       - 狮城节点
@@ -67,7 +75,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Instagram.png
     type: select
     proxies:
-      - 大力出奇迹（欢迎赞助）
+      - 大力出奇迹（个人发电，欢迎赞助）
       - 节点选择
       - 自动选择
       - 狮城节点
@@ -84,7 +92,7 @@ proxy-groups:
     icon: https://s2.loli.net/2025/07/31/O52VU7sNdpukejZ.png
     type: select
     proxies:
-      - 大力出奇迹（欢迎赞助）
+      - 大力出奇迹（个人发电，欢迎赞助）
       - 节点选择
       - 自动选择
       - 狮城节点
@@ -113,7 +121,7 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
-      - 大力出奇迹（欢迎赞助）
+      - 大力出奇迹（个人发电，欢迎赞助）
   - name: OpenAi
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png
     type: select
