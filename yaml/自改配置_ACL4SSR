@@ -19,12 +19,6 @@ proxy-groups:
     icon: https://s2.loli.net/2025/08/08/JsADNuvbM1ExKgS.png
     include-all: true
     type: select
-    proxies:
-      - 🇺🇸 猿来想撸毒奶粉（US）
-      - 🇹🇼 台湾卤肉饭包年版（TW）
-      - 🇸🇬 坡县特色海南鸡饭（SG）
-      - 🇯🇵 秋叶原圣地巡礼（JP）
-      - 香港节点
   - name: 手动切换
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
     include-all: true
