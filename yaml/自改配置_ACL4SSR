@@ -346,7 +346,7 @@ proxy-groups:
       - 英国节点
       - 韩国节点
       - 手动切换
-      - 大力出奇迹（欢迎赞助）
+      - 大力出奇迹（个人发电，欢迎赞助）
   - name: 香港节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
@@ -416,7 +416,7 @@ proxy-groups:
       - 节点选择
       - 手动切换
       - 自动选择
-      - 大力出奇迹（欢迎赞助）
+      - 大力出奇迹（个人发电，欢迎赞助）
       - Whatsapp
       - Facebook
       - Instagram
