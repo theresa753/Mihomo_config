@@ -4,9 +4,7 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
-      - 🇺🇸 猿来想撸毒奶粉（US）
-      - 🇹🇼 台湾卤肉饭包年版（TW）
-      - 🇯🇵 秋叶原圣地巡礼（JP）
+      - 大力出奇迹（欢迎赞助）
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -17,6 +15,11 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
+  - name: 大力出奇迹（欢迎赞助）
+    icon: https://s2.loli.net/2025/08/08/JsADNuvbM1ExKgS.png
+    include-all: true
+    filter: (?i)猿来|卤肉饭|海南鸡饭|秋叶原|白嫖
+    type: select
   - name: 手动切换
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
     include-all: true
@@ -31,6 +34,7 @@ proxy-groups:
     icon: https://s2.loli.net/2025/07/31/VNpCYyXWemqPQn2.png
     type: select
     proxies:
+      - 大力出奇迹（欢迎赞助）
       - 节点选择
       - 自动选择
       - 狮城节点
@@ -47,6 +51,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Facebook.png
     type: select
     proxies:
+      - 大力出奇迹（欢迎赞助）
       - 节点选择
       - 自动选择
       - 狮城节点
@@ -63,6 +68,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Instagram.png
     type: select
     proxies:
+      - 大力出奇迹（欢迎赞助）
       - 节点选择
       - 自动选择
       - 狮城节点
@@ -79,6 +85,7 @@ proxy-groups:
     icon: https://s2.loli.net/2025/07/31/O52VU7sNdpukejZ.png
     type: select
     proxies:
+      - 大力出奇迹（欢迎赞助）
       - 节点选择
       - 自动选择
       - 狮城节点
@@ -107,6 +114,7 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
+      - 大力出奇迹（欢迎赞助）
   - name: OpenAi
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png
     type: select
@@ -331,6 +339,7 @@ proxy-groups:
       - 英国节点
       - 韩国节点
       - 手动切换
+      - 大力出奇迹（欢迎赞助）
   - name: 香港节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
@@ -400,6 +409,7 @@ proxy-groups:
       - 节点选择
       - 手动切换
       - 自动选择
+      - 大力出奇迹（欢迎赞助）
       - Whatsapp
       - Facebook
       - Instagram
