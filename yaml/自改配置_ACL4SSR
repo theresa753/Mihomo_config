@@ -58,7 +58,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Facebook.png
     type: select
     proxies:
-      - 大力出奇迹（欢迎赞助）
+      - 大力出奇迹（个人发电，欢迎赞助）
       - 节点选择
       - 自动选择
       - 狮城节点
