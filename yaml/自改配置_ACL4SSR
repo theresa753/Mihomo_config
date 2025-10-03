@@ -690,7 +690,8 @@ rule-providers:
     type: http
 
 rules:
-  - "DOMAIN-KEYWORD,polarbear,全球直连"
+  - "DOMAIN,cdn.lilyemby.my,全球直连"
+  - "DOMAIN,tx.lilyemby.my,全球直连"
   - "DOMAIN-KEYWORD,leijing,全球直连"
   - "DOMAIN,ssou.top,全球直连"
   - "RULE-SET,LocalAreaNetwork,全球直连"
