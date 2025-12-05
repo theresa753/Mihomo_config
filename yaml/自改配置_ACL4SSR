@@ -348,14 +348,14 @@ proxy-groups:
   - name: 香港节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
-    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong|🇭🇰
     type: url-test
     interval: 300
     tolerance: 50
   - name: 日本节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     include-all: true
-    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|🇯🇵
     type: url-test
     interval: 300
     tolerance: 50
@@ -376,7 +376,7 @@ proxy-groups:
   - name: 狮城节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
-    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    filter: (?i)新加坡|坡|狮城|SG|Singapore|🇸🇬
     type: url-test
     interval: 300
     tolerance: 50
@@ -390,14 +390,14 @@ proxy-groups:
   - name: 英国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png
     include-all: true
-    filter: (?i)英|英国|英格兰|伦敦|UK|United Kingdom
+    filter: (?i)英|英国|英格兰|伦敦|UK|United Kingdom|🇬🇧
     type: url-test
     interval: 300
     tolerance: 50
   - name: 韩国节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
     include-all: true
-    filter: (?i)KR|Korea|KOR|首尔|春川|韩|韓
+    filter: (?i)KR|Korea|KOR|首尔|春川|韩|韓|🇰🇷
     type: url-test
     interval: 300
     tolerance: 50
