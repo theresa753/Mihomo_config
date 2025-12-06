@@ -403,7 +403,7 @@ proxy-groups:
   - name: 奈飞节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     include-all: true
-    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media|猿|黑丝|卤肉|秋叶原
+    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media|猿|姜饼|鸡饭
     type: select
   - name: GLOBAL
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
