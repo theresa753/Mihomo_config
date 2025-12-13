@@ -19,6 +19,7 @@ proxy-groups:
     icon: https://s2.loli.net/2025/08/08/JsADNuvbM1ExKgS.png
     type: select
     proxies:
+      - 🇺🇸 猿来想撸毒奶粉（US）
       - 🇩🇪 纽伦堡圣诞姜饼（DE）
       - 🇸🇬 坡县海南鸡饭（SG）
       - 🇺🇸 H-UI大胆白嫖速度超快带ipv6（US）
