@@ -25,7 +25,6 @@ proxy-groups:
       - 🇺🇸 H-UI大胆白嫖速度超快带ipv6（US）
       - 🇺🇸 DMIT-美西三网优化（US）
       - 🇹🇼 Hinet-苗栗三义木雕|家宽（TW）
-      - 🇺🇸 🇺🇸 洛杉矶圣莫尼卡海岸（US）
   - name: 手动切换
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
     include-all: true
