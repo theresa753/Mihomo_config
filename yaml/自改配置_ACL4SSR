@@ -21,8 +21,6 @@ proxy-groups:
     proxies:
       - 🇺🇸 猿来想撸毒奶粉（US）
       - 🇩🇪 纽伦堡圣诞姜饼（DE）
-      - 🇸🇬 坡县海南鸡饭（SG）
-      - 🇺🇸 H-UI大胆白嫖速度超快带ipv6（US）
       - 🇺🇸 DMIT-美西三网优化（US）
       - 🇯🇵 东京优化lite2-Basic（JP）
   - name: 手动切换
