@@ -687,7 +687,7 @@ rule-providers:
     type: http
 
 rules:
-  - "DOMAIN,cdn.lilyemby.my,全球直连"
+  - "DOMAIN,dogtv.ovohi.de,全球直连"
   - "DOMAIN,tx.lilyemby.my,全球直连"
   - "DOMAIN-KEYWORD,leijing,全球直连"
   - "DOMAIN,ssou.top,全球直连"
