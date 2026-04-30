@@ -19,7 +19,7 @@ proxy-groups:
       - 手动切换
       - DIRECT
   - name: 大力出奇迹（个人发电，欢迎赞助）
-    icon: https://s2.loli.net/2025/08/08/JsADNuvbM1ExKgS.png
+    icon: https://img.icons8.com/?size=100&id=10993&format=png&color=000000
     type: select
     proxies:
       - 🇺🇸 猿来想撸毒奶粉（US）
