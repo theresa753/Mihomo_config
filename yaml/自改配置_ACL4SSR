@@ -691,7 +691,7 @@ rule-providers:
 
 rules:
   - "DOMAIN,dogtv.ovohi.de,全球直连"
-  - "DOMAIN,tx.lilyemby.my,全球直连"
+  - "DOMAIN,linux.do,美国节点"
   - "DOMAIN-KEYWORD,jufyun,全球直连"
   - "DOMAIN,ssou.top,全球直连"
   - "RULE-SET,LocalAreaNetwork,全球直连"
