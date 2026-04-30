@@ -26,6 +26,8 @@ proxy-groups:
       - 🇩🇪 纽伦堡圣诞姜饼（DE）
       - 🇺🇸 DMIT-美西三网优化（US）
       - 🇯🇵 东京优化lite2-Basic（JP）
+      - 🇨🇦 Toronto Bell动态家宽（CA）
+      - 🇯🇵 KDDI日本动态家宽（JP）
   - name: 手动切换
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
     include-all: true
