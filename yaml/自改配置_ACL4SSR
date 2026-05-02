@@ -23,7 +23,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 猿来想撸毒奶粉（US）
-      - 🇩🇪 纽伦堡圣诞姜饼（DE）
       - 🇺🇸 DMIT-美西三网优化（US）
       - 🇯🇵 东京优化lite2-Basic（JP）
       - 🇨🇦 Toronto Bell动态家宽（CA）
