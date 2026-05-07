@@ -27,6 +27,7 @@ proxy-groups:
       - 🇯🇵 东京优化lite2-Basic（JP）
       - 🇨🇦 Toronto Bell动态家宽（CA）
       - 🇯🇵 KDDI日本动态家宽（JP）
+      - 🇺🇸 美国Frontier动态家宽（US）
   - name: 手动切换
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
     include-all: true
