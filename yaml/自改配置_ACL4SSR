@@ -139,6 +139,7 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
+      - 大力出奇迹（个人发电，欢迎赞助）
   - name: 油管视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
     type: select
@@ -694,6 +695,7 @@ rule-providers:
 rules:
   - "DOMAIN,dogtv.ovohi.de,全球直连"
   - "DOMAIN,linux.do,美国节点"
+  - "DOMAIN-KEYWORD,gemini,OpenAi"
   - "DOMAIN-KEYWORD,jufyun,全球直连"
   - "DOMAIN,ssou.top,全球直连"
   - "RULE-SET,LocalAreaNetwork,全球直连"
