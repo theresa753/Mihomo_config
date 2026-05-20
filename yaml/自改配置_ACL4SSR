@@ -697,6 +697,7 @@ rules:
   - "DOMAIN,shlii.io,🇺🇸 DMIT-美西三网优化（US）"
   - "DOMAIN,linux.do,美国节点"
   - "DOMAIN-KEYWORD,gemini,OpenAi"
+  - "DOMAIN-KEYWORD,claude,OpenAi"
   - "DOMAIN-KEYWORD,jufyun,全球直连"
   - "DOMAIN,ssou.top,全球直连"
   - "RULE-SET,LocalAreaNetwork,全球直连"
